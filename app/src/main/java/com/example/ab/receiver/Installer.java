@@ -1,11 +1,10 @@
 package com.example.ab.receiver;
 
 import android.app.Activity;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by ab on 8/13/16.
+ * This class is needed only to validate the app.
+ * Android requires user to launch the app explicitly before any of it's componets coul be used.
  */
 public class Installer extends Activity {
     @Override
